@@ -30,3 +30,29 @@
     transform: rotate(360deg);
   }
 }
+
+.root {
+  flex: 1;
+}
+.controls {
+  padding: 2rem 1rem;
+}
+
+.textField {
+  width: 200;
+}
+
+
+.wrapper {
+  position: 'relative';
+}
+
+
+.buttonProgress {
+  color: 'green';
+  position: 'absolute';
+  top: '50%';
+  left: '50%';
+  marginTop: -12;
+  marginLeft: -12;
+}

@@ -3,11 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.2.0",
+    "@material-ui/icons": "^3.0.1",
+    "@turf/random": "^6.0.2",
+    "gh-pages": "^2.0.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "2.0.4"
+    "react-google-maps": "^9.4.5",
+    "react-scripts": "2.0.4",
+    "recompose": "^0.30.0",
+    "uniqid": "^5.0.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -16,6 +25,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "homepage": "http://saravanakumargn.github.io/reactjs-google-maps-clusterer",
   "browserslist": [
     ">0.2%",
     "not dead",
